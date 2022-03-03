@@ -164,7 +164,7 @@ A's Punt überquert die Neutrale Zone. A34 begeht eine Touching Violation. B23 r
 (a) bis an B's 5, wo er getackelt wird.  
 (b) bis in B's Endzone für einen Touchdown.  
 
-#### a - Lauf endet an B's 5
+#### Diagramm
 ```mermaid
 sequenceDiagram
     participant KICK
@@ -172,28 +172,15 @@ sequenceDiagram
     participant KICKENDE
     participant BFUMBLE as B Fumble @ B's 35
     participant BALLDEAD as B's 5
+    participant BENDZONE
     KICK->>KICKENDE: Punt
     note right of NZ: Illegal Touching "TV"
     KICKENDE->>BFUMBLE: B Lauf
     note right of KICKENDE: B92 hält einen Gegenspieler
-    BFUMBLE->>BALLDEAD: A Lauf
+    BFUMBLE->>BALLDEAD: (a) A Lauf endet im Spielfeld
+    BFUMBLE->>BENDZONE: (b) A Lauf endet in B's Endzone
 ```
 
-#### b - Lauf endet in B's Endzone
-
-```mermaid
-sequenceDiagram
-    participant KICK
-    participant NZ as BALL ÜBERQUERT NZ
-    participant KICKENDE
-    participant BFUMBLE as B Fumble @ B's 35
-    participant BALLDEAD as B's Endzone
-    KICK->>KICKENDE: Punt
-    note right of NZ: Illegal Touching "TV"
-    KICKENDE->>BFUMBLE: B Lauf
-    note right of KICKENDE: B92 hält einen Gegenspieler
-    BFUMBLE->>BALLDEAD: A Lauf
-```
 
 ##### Regelung:  
 Unter (a) ist die Regelung dieselbe wie oben unter 11-87. A kann den Ball nicht behalten. Team B bekommt den Ball entweder durch die Touching Violation (wenn Strafe abgelehnt) oder nach Durchführung der Strafe für das eigene Foul ...
