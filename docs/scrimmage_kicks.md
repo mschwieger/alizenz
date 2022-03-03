@@ -2,6 +2,31 @@
 
 ## Diagrams
 
+### Phasen eines Scrimmage Kick Downs
+
+```mermaid
+sequenceDiagram
+    participant PREDEAD as BALL DEAD
+    participant SNAP
+    participant KICK
+    participant NZ as BALL ÜBERQUERT NZ
+    participant KICKENDE
+    participant LAUF
+    participant BALL DEAD
+    PREDEAD->>SNAP: PRE-SNAP
+    SNAP->>KICK: PRE-KICK
+    KICK->>KICKENDE: POST-KICK
+    NZ->>KICKENDE: PRE-POSSESSION
+    par Team B
+    KICKENDE->>LAUF: B erlangt Ballbesitz
+    LAUF->>BALL DEAD: RETURN
+    note over KICKENDE,LAUF: FAIR CATCH = LAUF für 0 Sek und 0 m
+    and Team A
+    KICKENDE->>BALL DEAD: A erlangt Ballbesitz 
+    note over KICKENDE,BALL DEAD: Ball sofort dead   
+    end
+```
+
 ``` mermaid
 sequenceDiagram 
     Dead->>+Snap: 
