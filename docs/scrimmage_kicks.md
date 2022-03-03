@@ -2,6 +2,25 @@
 
 ## Diagrams
 
+### Teamballbesitz während eines Scrimmage Kick Downs
+
+- kein Schnickschnack
+- keine Violation
+- Team B am Ende des Downs im Ballbesitz
+
+```mermaid
+sequenceDiagram
+    participant PREDEAD as BALL DEAD
+    participant SNAP
+    participant KICK
+    participant NZ as BALL ÜBERQUERT NZ
+    participant KICKENDE
+    participant BALLDEAD as BALL DEAD
+    PREDEAD ->> NZ: TEAM A
+    NZ ->> BALLDEAD: TEAM B
+```
+
+
 ### Phasen eines Scrimmage Kick Downs
 
 ```mermaid
