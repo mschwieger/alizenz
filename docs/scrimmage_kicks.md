@@ -1,6 +1,6 @@
 # Scrimmage Kicks
 
-## Diagrams
+## Diagramme
 
 ### Teamballbesitz während eines Scrimmage Kick Downs
 
@@ -89,6 +89,8 @@ sequenceDiagram
     and
     note over SNAP,KICKENDE: Team A Fouls vor Kickende
     SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
+    and
+    note over NZ,KICKENDE: BFK ist Spotfoul
     end
 ```
 
