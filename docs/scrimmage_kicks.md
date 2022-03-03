@@ -90,7 +90,7 @@ sequenceDiagram
     note over SNAP,KICKENDE: Team A Fouls vor Kickende
     SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
     and
-    note over NZ,KICKENDE: BFK ist Spotfoul
+    note right of NZ: BFK ist Spotfoul
     end
 ```
 
