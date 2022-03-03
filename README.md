@@ -1,3 +1,3 @@
-# clinic.afsvhh.de
+# alizenz.afsvd.de
 
-Infos für die Clinic
+Infos für den A-Lizenzlehrgang
