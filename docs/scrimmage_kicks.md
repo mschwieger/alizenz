@@ -122,6 +122,7 @@ A's Punt überquert die Neutrale Zone. A34 begeht eine Touching Violation. B23 n
 (a) bis an B's 5, wo er getackelt wird.  
 (b) bis in B's Endzone für einen Touchdown.  
 
+#### a - Lauf endet an B's 5
 ```mermaid
 sequenceDiagram
     participant KICK
@@ -135,6 +136,23 @@ sequenceDiagram
     note right of KICKENDE: B92 slugs A15 at the B-32
     BFUMBLE->>BALLDEAD: A Lauf
 ```
+
+#### b - Lauf endet in B's Endzone
+
+```mermaid
+sequenceDiagram
+    participant KICK
+    participant NZ as BALL ÜBERQUERT NZ
+    participant KICKENDE
+    participant BFUMBLE as B Fumble
+    participant BALLDEAD as B's Endzone
+    KICK->>KICKENDE: Punt
+    note right of NZ: Illegal Touching "TV"
+    KICKENDE->>BFUMBLE: B Lauf
+    note right of KICKENDE: B92 slugs A15 at the B-32
+    BFUMBLE->>BALLDEAD: A Lauf
+```
+
 
 Regelung:  
 Unter (a) kann Team A den Ball nicht bekoomen. Lehnt A die Strafe für das persönliche Foul ab, bekommt Team B den Ball am Punkt der Touching Violation. Nimmt A die Strafe an, wird die Touching Violation aufgehoben. Die Strafdurchführung gibt jedoch B den Ball, weil B zum Zeitpunkt des Fouls in Ballbesitz war. Die Strafe wird nach dem 3-und-1 Prinzip vom Punkt des Fouls durchgeführt, da das Foul hinter dem Basic Spot (Ende von B's Lauf) stattfand.  
