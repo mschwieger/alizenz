@@ -92,6 +92,7 @@ sequenceDiagram
     end
 ```
 
+<!--
 ### zu viel in einer Grafik
 
 
@@ -113,6 +114,7 @@ sequenceDiagram
     note over Snap,Kick: Teamballbesitz A
     note over Kick,Lauf B: Teamballbesitz B
 ```
+-->
 
 ## Beispiele
 
