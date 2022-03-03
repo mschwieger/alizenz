@@ -13,7 +13,7 @@ sequenceDiagram
     participant PREDEAD as BALL DEAD
     participant SNAP
     participant KICK
-    participant NZ as BALL ÜBERQUERT NZ
+    participant NZ as KICK ÜBERQUERT NZ
     participant KICKENDE
     participant BALLDEAD as BALL DEAD
     PREDEAD ->> NZ: TEAM A
@@ -28,7 +28,7 @@ sequenceDiagram
     participant PREDEAD as BALL DEAD
     participant SNAP
     participant KICK
-    participant NZ as BALL ÜBERQUERT NZ
+    participant NZ as KICK ÜBERQUERT NZ
     participant KICKENDE
     participant BALL DEAD
     PREDEAD->>SNAP: PRE-SNAP
@@ -51,7 +51,7 @@ sequenceDiagram
     participant PREDEAD as BALL DEAD
     participant SNAP
     participant KICK
-    participant NZ as BALL ÜBERQUERT NZ
+    participant NZ as KICK ÜBERQUERT NZ
     participant KICKENDE
     
     participant BALL DEAD
