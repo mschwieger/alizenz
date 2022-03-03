@@ -15,7 +15,7 @@ sequenceDiagram
     PREDEAD->>SNAP: PRE-SNAP
     SNAP->>KICK: PRE-KICK
     KICK->>KICKENDE: POST-KICK
-    NZ->>KICKENDE: PRE-POSSESSION
+    NZ->>KICKENDE: POST-POSSESSION
     par Team B
     note over KICKENDE: B erlangt Ballbesitz
     KICKENDE->>BALL DEAD: RETURN
