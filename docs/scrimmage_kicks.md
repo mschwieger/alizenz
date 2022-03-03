@@ -20,12 +20,43 @@ sequenceDiagram
     par Team B
     KICKENDE->>LAUF: B erlangt Ballbesitz
     LAUF->>BALL DEAD: RETURN
-    note over KICKENDE,LAUF: FAIR CATCH = LAUF für 0 Sek und 0 m
+    note over KICKENDE,BALL DEAD: FAIR CATCH = LAUF für 0 Sek und 0 m
     and Team A
     KICKENDE->>BALL DEAD: A erlangt Ballbesitz 
     note over KICKENDE,BALL DEAD: Ball sofort dead   
     end
 ```
+### Spieltypen während eines Scrimmage Kick Downs
+
+```mermaid
+sequenceDiagram
+    participant PREDEAD as BALL DEAD
+    participant SNAP
+    participant KICK
+    participant NZ as BALL ÜBERQUERT NZ
+    participant KICKENDE
+    
+    participant BALL DEAD
+    PREDEAD->>SNAP: DEAD
+    SNAP->>KICK: LAUF
+    KICK->>KICKENDE: KICK
+
+    par Team B
+    KICKENDE->>BALL DEAD: LAUF
+    note over KICKENDE,BALL DEAD: RETURN
+    note over KICKENDE,BALL DEAD: FAIR CATCH = RETURN für 0 Sek und 0 m
+    and Team A
+    KICKENDE->>BALL DEAD: A erlangt Ballbesitz 
+    note over KICKENDE,BALL DEAD: Ball sofort dead   
+    end
+
+```
+
+
+
+
+### zu viel in einer Grafik
+
 
 ``` mermaid
 sequenceDiagram 
