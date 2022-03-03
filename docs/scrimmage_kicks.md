@@ -21,8 +21,8 @@ sequenceDiagram
     KICKENDE->>BALL DEAD: RETURN
     note over KICKENDE,BALL DEAD: FAIR CATCH = LAUF für 0 Sek und 0 m
     and Team A
-    KICKENDE: A erlangt Ballbesitz 
-    note over KICKENDE,BALL DEAD: Ball sofort dead   
+    note over KICKENDE: A erlangt Ballbesitz 
+    KICKENDE->>BALL DEAD: Ball sofort dead   
     end
 ```
 ### Status des Balles während Scrimmage Kick Downs
