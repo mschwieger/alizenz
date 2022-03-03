@@ -26,7 +26,7 @@ sequenceDiagram
     note over KICKENDE,BALL DEAD: Ball sofort dead   
     end
 ```
-### Spieltypen während eines Scrimmage Kick Downs
+### Status des Balles während Scrimmage Kick Downs
 
 ```mermaid
 sequenceDiagram
