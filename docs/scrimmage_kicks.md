@@ -84,11 +84,9 @@ sequenceDiagram
     note over PREDEAD,SNAP: Team A Presnap Fouls
     PREDEAD ->> SNAP: Succeeding Spot 
     and
-    note over SNAP: Team A Fouls beim SNAP
-    SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
-    and
     note over SNAP,KICKENDE: Team A Fouls vor Kickende
-    SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
+    SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden
+    KICKENDE-->>SNAP: oder Previous Spot
     and
     note right of NZ: BFK ist Spotfoul
     end
