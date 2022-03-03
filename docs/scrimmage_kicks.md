@@ -70,8 +70,27 @@ sequenceDiagram
 
 ```
 
+### Team A Fouls
 
-
+``` mermaid
+sequenceDiagram
+    participant PREDEAD as BALL DEAD
+    participant SNAP
+    participant KICK
+    participant NZ as BALL ÜBERQUERT NZ
+    participant KICKENDE
+    participant BALLDEAD as BALL DEAD
+    par
+    note over PREDEAD,SNAP: Team A Presnap Fouls
+    PREDEAD ->> SNAP: Succeeding Spot 
+    and
+    note over SNAP: Team A Fouls beim SNAP
+    SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
+    and
+    note over SNAP,KICKENDE: Team A Fouls vor Kickende
+    SNAP->>BALLDEAD: Können auf Team B's Dead Ball enforced werden.
+    end
+```
 
 ### zu viel in einer Grafik
 
