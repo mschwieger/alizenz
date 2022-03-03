@@ -2,20 +2,20 @@
 
 Angaben gemäß § 5 TMG
 
-Mats Schwieger 
-Alsenstr. 9 
-22769 Hamburg 
+Mats Schwieger  
+Alsenstr. 9  
+22769 Hamburg  
 
 ## Kontakt
 
-Telefon: 040-43099836 
-E-Mail: <a href='mailto:webmaster@regelkun.de'>webmaster@regelkun.de</a> 
+Telefon: 040-43099836  
+E-Mail: <a href='mailto:webmaster@regelkun.de'>webmaster@regelkun.de</a>  
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
-Mats Schwieger  
-Alsenstr. 9 
-22769 Hamburg 
+Mats Schwieger   
+Alsenstr. 9  
+22769 Hamburg  
 
 ## Haftungsausschluss:
 
