@@ -1,25 +1,14 @@
-site_name: AFSVHH Lehrgänge
-site_url: https://clinic.afsvhh.de
-repo_url: https://github.com/mschwieger/clinic
-repo_name: mschwieger/clinic
+site_name: A Lizenz
+repo_url: https://github.com/mschwieger/alizenz
+repo_name: mschwieger/alizenz
 edit_uri: edit/main/docs/
 theme:
     name: material
-    logo: assets/images/afsvhh.png
-    favicon: assets/images/favicon.png
     locale: de
     palette:
-        primary: red
+        primary: black
     features:
         - navigation.tabs
-nav:
-    -  "index.md"
-    - "B.md"
-    - "C.md"
-    - "D.md"
-    - "E.md"
-    - "| Downloads": "https://afsvd.de/downloads/"
-
 plugins:
     - search:
         lang: de
